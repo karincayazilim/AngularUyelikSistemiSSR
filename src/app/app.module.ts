@@ -9,6 +9,10 @@ import { AuthComponent } from './content/pages/auth/auth.component';
 import { LoginComponent } from './content/pages/auth/login/login.component';
 import { ForgotPasswordComponent } from './content/pages/auth/forgot-password/forgot-password.component';
 import { RegisterComponent } from './content/pages/auth/register/register.component';
+import { MainPageComponent } from './content/pages/main-page/main-page.component';
+import { ProfileComponent } from './content/pages/main-page/profile/profile.component';
+import { SettingComponent } from './content/pages/main-page/setting/setting.component';
+import { DashboardComponent } from './content/pages/main-page/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { RegisterComponent } from './content/pages/auth/register/register.compon
     AuthComponent,
     LoginComponent,
     ForgotPasswordComponent,
-    RegisterComponent
+    RegisterComponent,
+    MainPageComponent,
+    ProfileComponent,
+    SettingComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
