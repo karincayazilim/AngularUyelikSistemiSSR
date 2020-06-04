@@ -13,6 +13,7 @@ import { MainPageComponent } from './content/pages/main-page/main-page.component
 import { ProfileComponent } from './content/pages/main-page/profile/profile.component';
 import { SettingComponent } from './content/pages/main-page/setting/setting.component';
 import { DashboardComponent } from './content/pages/main-page/dashboard/dashboard.component';
+import { SliderComponent } from './content/components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DashboardComponent } from './content/pages/main-page/dashboard/dashboar
     MainPageComponent,
     ProfileComponent,
     SettingComponent,
-    DashboardComponent
+    DashboardComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

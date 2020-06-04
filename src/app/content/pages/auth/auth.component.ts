@@ -1,27 +1,15 @@
-import {Component, OnInit, AfterViewInit} from '@angular/core';
-import $ from 'jquery';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-auth',
   templateUrl: './auth.component.html',
   styleUrls: ['./auth.component.less']
 })
-export class AuthComponent implements OnInit, AfterViewInit {
-
+export class AuthComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  ngAfterViewInit(): void {
-    setTimeout(() => {
-      this.onResize(null);
-    }, 50);
-  }
-  onResize(event) {
-    const height = $("#slider").height();
-    $(".bc").css('height', height);
   }
 
 }

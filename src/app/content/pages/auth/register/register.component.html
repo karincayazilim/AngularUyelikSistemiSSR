@@ -1,1 +1,37 @@
-<p>register works!</p>
+<form>
+  <h4>Kaydol </h4>
+  <hr />
+  <div class="form-group">
+    <label for="name">Ad</label>
+    <input type="text" class="form-control form-control-sm" id="name" placeholder="Lütfen adınızı giriniz">
+  </div>
+  <div class="form-group">
+    <label for="surname">Soyad</label>
+    <input type="text" class="form-control form-control-sm" id="surname" placeholder="Lütfen soyadınızı giriniz">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Kullanıcı Adı</label>
+    <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Kullanıcı adınızı giriniz">
+  </div>
+  <div class="form-group">
+    <label for="password">Şifre</label>
+    <input type="password" class="form-control form-control-sm" id="password" placeholder="Lütfen şifrenizi giriniz">
+  </div>
+  <div class="form-group">
+    <label for="repeatPassword">Şifre Tekrarı</label>
+    <input type="password" class="form-control form-control-sm" id="repeatPassword" placeholder="Lütfen şifrenizi tekrar giriniz">
+  </div>
+
+  <div class="form-group">
+    <button type="button" class="btn btn-sm btn-outline-primary float-right">Kaydol</button>
+  </div>
+  <div class="clearfix"></div>
+
+  <hr class="my-4" />
+
+  <div class="text-center">
+    <a routerLink="/auth/login" class="float-left">Giriş Yap</a>
+    <a routerLink="/auth/forgot-password" class="float-right">Şifremi unuttum</a>
+  </div>
+
+</form>
